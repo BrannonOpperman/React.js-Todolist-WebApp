@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Handles the populating of the Todolist onto the screen
 const Todos = ({ todos, deleteTodo }) => {
     const todoList = todos.length ? (
         todos.map(todo => {
